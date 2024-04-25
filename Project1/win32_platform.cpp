@@ -18,7 +18,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLi
     }
 
     // Create Window
-    HWND hwnd = CreateWindowW(window_class.lpszClassName, L"My First Game!", WS_OVERLAPPEDWINDOW | WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, 1280, 720, NULL, NULL, hInstance, NULL);
+    HWND hwnd = CreateWindowW(window_class.lpszClassName, L"My First Game Lmao!", WS_OVERLAPPEDWINDOW | WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, 1280, 720, NULL, NULL, hInstance, NULL);
     if (!hwnd) {
         MessageBoxW(NULL, L"Window Creation Failed!", L"Error", MB_ICONERROR);
         UnregisterClass(window_class.lpszClassName, hInstance);
